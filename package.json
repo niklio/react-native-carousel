@@ -38,5 +38,10 @@
     "babel-eslint": "^8.0.0",
     "eslint": "^4.6.1",
     "prettier": "^1.6.1"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-native": "^0.48.3",
+    "styled-components": "^2.1.2"
   }
 }
