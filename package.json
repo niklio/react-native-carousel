@@ -1,0 +1,42 @@
+{
+  "name": "react-native-carousel",
+  "version": "1.0.0",
+  "description": "A simple, animated carousel component for react native'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "prettier": "find . -name '*.js' | xargs prettier --single-quote --trailing-comma es5 --write",
+    "check-prettier": "find . -name '*.js' | xargs prettier --single-quote --trailing-comma es5 -l"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true,
+        "experimentalObjectRestSpread": true
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niklio/react-native-carousel.git"
+  },
+  "author": "nik liolios",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niklio/react-native-carousel/issues"
+  },
+  "homepage": "https://github.com/niklio/react-native-carousel#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.0.0",
+    "eslint": "^4.6.1",
+    "prettier": "^1.6.1"
+  }
+}
